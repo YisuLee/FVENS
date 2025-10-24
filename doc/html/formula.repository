@@ -1,0 +1,16 @@
+\_form#0=75x18:$ \frac{du}{dt} - r(u) = 0 $
+\_form#1=79x18:$ \frac{du}{dt} + R(u) = 0 $
+\_form#2=26x14:$ p/ \rho^\gamma $
+\_form#3=85x14:$ \partial \mathbf{u}_{prim2} / \partial \mathbf{u}_{cons} $
+\_form#4=120x16:$ r(u) = \sum_K \int_{\partial K} F \hat{n} d\gamma $
+\_form#5=160x16:$ C_p = (p-p_\infty)/(\frac12 rho_\infty * v_\infty^2) $
+\_form#6=45x14:$ \partial \mathbf{f}_{ij} / \partial \mathbf{u}_i $
+\_form#7=46x14:$ \partial \mathbf{f}_{ij} / \partial \mathbf{u}_j $
+\_form#8=8x6:$\mathbf{u}$
+\_form#9=8x6:$\mathbf{r}$
+\_form#10=11x10:$\mathbf{A}$
+\_form#11=9x6:$ n $
+\_form#12=301x49:\begin{eqnarray}\left( \mathbf{M}_\tau + \frac{\partial\mathbf{r}}{\partial\mathbf{u}}|_{\mathbf{u}_n} \right) \Delta \mathbf{u}_n = -\mathbf{r}_n \\
+\mathbf{u}_{n+1} := \mathbf{u}_n + \Delta\mathbf{u}_n,
+\end{eqnarray}
+\_form#13=20x13:$ \mathbf{M}_\tau $

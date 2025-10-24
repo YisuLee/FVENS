@@ -358,7 +358,10 @@ void FlowFV<scalar,secondOrderRequested,constVisc>
 	// cell-centred left and right states
 	scalar uctl[NVARS], uctr[NVARS];
 	// left and right gradients; zero for first order scheme
-	scalar gradl[NDIM*NVARS], gradr[NDIM*NVARS];
+	// scalar gradl[NDIM*NVARS], gradr[NDIM*NVARS];
+	scalar gradl[NDIM * NVARS] = {0.0};
+	scalar gradr[NDIM * NVARS] = {0.0};
+
 
 	// const scalar *in_gradl = nullptr, *in_gradr = nullptr;
 

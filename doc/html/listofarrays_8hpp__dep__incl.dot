@@ -1,0 +1,10 @@
+digraph "listofarrays.hpp"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="listofarrays.hpp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Rudimentary abstraction for a certain implementation of lists of arrays."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="meshpartitioning.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$meshpartitioning_8cpp.html",tooltip="Implementation of mesh partitioning - calls PT-Scotch."];
+}
